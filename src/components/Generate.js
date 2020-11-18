@@ -26,7 +26,7 @@ class Generate extends React.Component {
   };
 
   handleSubmit(event) {
-    console.log(this.state);
+    window.alert(`${this.state.pinone} ${this.state.pintwo} ${this.state.pinthree} ${this.state.pinfour} ${this.state.pinfive}`);
     event.preventDefault();
   }
 
